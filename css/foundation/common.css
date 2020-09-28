@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* font */
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  src: url("../../font/DINPro-medium.ttf") format("ttf");
+  font-display: swap;
+  font-family: "DIN-Medium";
+  font-style: medium;
+  font-weight: 400;
+}
+
+.font-dinm {
+  font-family: "DIN-Medium", sans-serif;
+  font-weight: 400;
+  line-height: 0;
+}
+
+@font-face {
+  src: url("../../font/DINPro-Regular.ttf") format("ttf");
+  font-display: swap;
+  font-family: "DIN-Regular";
+  font-style: Bold;
+  font-weight: 700;
+}
+
+.font-dinr {
+  font-family: "DIN-Regular", sans-serif;
+  font-weight: 700;
+  line-height: 0;
+}
+
+@font-face {
+  src: url("../../font/DINPro-Light.ttf") format("ttf");
+  font-display: swap;
+  font-family: "DIN-Light";
+  font-weight: 100;
+}
+
+.font-dinl {
+  font-family: "DIN-light", sans-serif;
+  font-weight: 100;
+  line-height: 0;
+}
+
+html {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif !important;
+}
+
+/* l-header */
+.l-header {
+  padding: 35.5px 4.85em;
+}
+
+.l-header img {
+  width: 70%;
+}
+
+.l-header a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+.l-header a:hover {
+  -webkit-transition-duration: 0.2s;
+  opacity: 0.3;
+  transition-duration: 0.2s;
+}
+
+.l-header > ul {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-header > ul > li {
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.l-header > ul > li > a {
+  display: inline-block;
+  padding-bottom: -5px;
+}
+
+.l-header > ul > li:first-child {
+  margin-right: auto;
+}
+
+.l-header > ul > li:nth-child(2) {
+  padding: 0 20px 0 0;
+}
+
+.l-header > ul > li:nth-child(3) {
+  border-left: 2px solid #1A1A1A;
+  padding: 0 0 0 20px;
+}
+
+/* l-footer */
+.l-footer {
+  margin: 0 0 2rem 0;
+}
+
+.l-footer > p {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.footer_link {
+  margin: 0 0 5rem 0;
+}
+
+.footer_link > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_link > ul > li {
+  -ms-flex-wrap: wrap;
+  background-color: initial;
+  color: #1A1A1A;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.footer_link > ul > li > a {
+  color: #1A1A1A;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer_link > ul > li > a img {
+  width: 70%;
+}
+
+.footer_link > ul > li > a:hover,
+.footer_link > ul > li > a:hover {
+  -webkit-transition-duration: 0.2s;
+  opacity: 0.3;
+  transition-duration: 0.2s;
+}

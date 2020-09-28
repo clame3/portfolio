@@ -1,0 +1,7 @@
+.current {
+  display: grid !important;
+}
+
+.nonActive {
+  display: none !important;
+}

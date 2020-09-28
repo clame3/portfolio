@@ -1,0 +1,23 @@
+@media (min-width: 641px) {
+  .pc-show {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .pc-show {
+    display: none;
+  }
+}
+
+@media (min-width: 641px) {
+  .sp-show {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .sp-show {
+    display: block;
+  }
+}

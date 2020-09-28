@@ -87,8 +87,8 @@ html {
 }
 
 .l-header > ul > li > a {
-  display: inline-block;
-  padding-bottom: -5px;
+  padding: 25px 5px 10px;
+  z-index: 999;
 }
 
 .l-header > ul > li:first-child {
@@ -115,7 +115,8 @@ html {
 }
 
 .footer_link {
-  margin: 0 0 5rem 0;
+  margin: 0 auto 5rem;
+  width: 14rem;
 }
 
 .footer_link > ul {
@@ -136,12 +137,19 @@ html {
 
 .footer_link > ul > li > a {
   color: #1A1A1A;
-  display: inline-block;
+  padding: 25px 5px 10px;
   text-decoration: none;
 }
 
-.footer_link > ul > li > a img {
-  width: 70%;
+.l-footer-img {
+  margin: 3rem auto 0;
+  width: 2rem;
+}
+
+.l-footer-img a:hover {
+  -webkit-transition-duration: 0.2s;
+  opacity: 0.3;
+  transition-duration: 0.2s;
 }
 
 .footer_link > ul > li > a:hover,

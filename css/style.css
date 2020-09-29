@@ -383,6 +383,38 @@ main {
   background-image: url("../images/fv04.jpg");
 }
 
+.l-prj-fv-05 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv05.jpg?raw=true");
+}
+
+.l-prj-fv-06 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv06.jpg?raw=true");
+}
+
+.l-prj-fv-07 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv07.jpg?raw=true");
+}
+
+.l-prj-fv-08 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv08.jpg?raw=true");
+}
+
+.l-prj-fv-09 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv09.jpg?raw=true");
+}
+
+.l-prj-fv-10 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv10.jpg?raw=true");
+}
+
+.l-prj-fv-11 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv11.jpg?raw=true");
+}
+
+.l-prj-fv-12 {
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv012.jpg?raw=true");
+}
+
 .l-prj-sasikae {
   margin: auto;
   width: 62%;
@@ -446,6 +478,11 @@ main {
 
 .l-prj-img > img {
   width: 100%;
+}
+
+.l-prj-movie {
+  margin: auto;
+  width: 40%;
 }
 
 .mt60 {

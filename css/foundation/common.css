@@ -1,4 +1,28 @@
 @charset "UTF-8";
+@media (min-width: 641px) {
+  .pc-show {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .pc-show {
+    display: none;
+  }
+}
+
+@media (min-width: 641px) {
+  .sp-show {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .sp-show {
+    display: block;
+  }
+}
+
 /* font */
 html {
   font-size: 62.5%;
@@ -55,7 +79,14 @@ html {
 }
 
 .l-header img {
+  display: block;
   width: 70%;
+}
+
+@media (max-width: 640px) {
+  .l-header img {
+    margin: auto;
+  }
 }
 
 .l-header a {
@@ -91,8 +122,20 @@ html {
   z-index: 999;
 }
 
+@media (max-width: 640px) {
+  .l-header > ul > li > a {
+    padding: 0;
+  }
+}
+
 .l-header > ul > li:first-child {
   margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .l-header > ul > li:first-child {
+    margin: auto;
+  }
 }
 
 .l-header > ul > li:nth-child(2) {

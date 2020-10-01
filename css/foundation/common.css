@@ -73,6 +73,10 @@ html {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif !important;
 }
 
+svg {
+  font-family: "DIN-light", sans-serif !important;
+}
+
 /* l-header */
 .l-header {
   padding: 35.5px 4.85em;

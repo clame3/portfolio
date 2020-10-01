@@ -39,7 +39,13 @@ main {
 
 .l-topContent a:hover {
   -webkit-transition: 0.2s;
-  opacity: 0.6;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.l-topContent a img:hover {
+  -webkit-transition: 0.2s;
+  opacity: 0;
   transition: 0.2s;
 }
 
@@ -169,23 +175,23 @@ main {
 }
 
 .l-prj-fv-00 {
-  background-image: url("../images/fv00.jpg");
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv00.jpg");
 }
 
 .l-prj-fv-01 {
-  background-image: url("../images/fv01.jpg");
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv01.jpg");
 }
 
 .l-prj-fv-02 {
-  background-image: url("../images/fv02.jpg");
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv02.jpg");
 }
 
 .l-prj-fv-03 {
-  background-image: url("../images/fv03.jpg");
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv03.jpg");
 }
 
 .l-prj-fv-04 {
-  background-image: url("../images/fv04.jpg");
+  background-image: url("https://github.com/clame3/portfolio/blob/master/images/fv04.jpg");
 }
 
 .l-prj-fv-05 {
@@ -249,8 +255,10 @@ main {
 }
 
 .l-prj-description {
+  -webkit-font-feature-settings: "palt" 1;
+  font-feature-settings: "palt" 1;
   font-size: 1rem;
-  letter-spacing: 0.5;
+  letter-spacing: 0.8;
   line-height: 1.8rem;
   margin-bottom: 2rem;
 }
@@ -295,7 +303,7 @@ main {
 }
 
 .l-prj-gridparts:nth-child(n + 2)::before {
-  background: url("../images/arrow.svg");
+  background: url(".");
   content: "";
   display: inline-block;
   height: 10px;
@@ -335,4 +343,113 @@ main {
 
 .mt60 {
   margin-top: 4rem;
+}
+
+.mask {
+  background-size: contain !important;
+  width: 100%;
+}
+
+.mask-02 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg02@2x.jpg?raw=true");
+}
+
+.mask-03 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg03@2x.jpg?raw=true");
+}
+
+.mask-04 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg04@2x.jpg?raw=true");
+}
+
+.mask-05 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg05@2x.jpg?raw=true");
+}
+
+.mask-06 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg06@2x.jpg?raw=true");
+}
+
+.mask-07 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg07@2x.jpg?raw=true");
+}
+
+.mask-08 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg08@2x.jpg?raw=true");
+}
+
+.mask-09 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg09@2x.jpg?raw=true");
+}
+
+.mask-10 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg10@2x.jpg?raw=true");
+}
+
+.mask-11 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg11@2x.jpg?raw=true");
+}
+
+.mask-12 {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/work_topImg12@2x.jpg?raw=true");
+}
+
+.works-image {
+  -webkit-animation-name: eanim;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 2s;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: eanim;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes eanim {
+  0% {
+    -webkit-transform: translate(0, 0px);
+    transform: translate(0, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0, -5px);
+    transform: translate(0, -5px);
+  }
+}
+
+@keyframes eanim {
+  0% {
+    -webkit-transform: translate(0, 0px);
+    transform: translate(0, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0, -5px);
+    transform: translate(0, -5px);
+  }
+}
+
+.l-about-description {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  -webkit-font-feature-settings: "palt" 1;
+  display: grid;
+  font-feature-settings: "palt" 1;
+  grid-template-columns: 1fr 26fr;
+  letter-spacing: 0.8;
+  line-height: 1.8rem;
+}
+
+.l-about-description::after {
+  background: url("https://github.com/clame3/portfolio/blob/master/images/kuramaruchan.svg");
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.highlight {
+  background: #6D6DF4;
+  color: #fff;
+  padding: 4px;
 }
